@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'quran_screen.dart';
 import 'arabic_learning_screen.dart';
-import 'entertainment_screen.dart';
+import 'quiz_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => EntertainmentScreen()),
+                            builder: (context) => QuizScreen()),
                       );
                     },
                     style: ElevatedButton.styleFrom(
